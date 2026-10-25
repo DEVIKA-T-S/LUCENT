@@ -1,0 +1,34 @@
+﻿# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Private files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local database
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Backup files
+*_before_improvements.py
+*_before_step*.py
+app_before_monitoring.py
+app_with_live_monitoring_backup.py
+
+# Temporary files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
